@@ -13,8 +13,21 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Arnob's PORTFOLIO",
-  description: "A modern portofolio of by NextJS",
+  title: "Arnob Mahmud - Full Stack Developer",
+  description:
+    "Arnob Mahmud is a full stack developer specializing in web and mobile app development, QA test automation, and digital marketing for SEO. Explore his modern portfolio built with Next.js.",
+  keywords: [
+    "Arnob Mahmud",
+    "Full Stack Developer",
+    "Web Development",
+    "Mobile App Development",
+    "QA Test Automation",
+    "Digital Marketing",
+    "SEO",
+    "Portfolio",
+    "Next.js",
+  ],
+  author: "Arnob Mahmud",
 };
 
 export default function RootLayout({ children }) {
