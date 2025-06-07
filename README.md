@@ -11,7 +11,7 @@
 
 This project serves as a professional digital resume and portfolio, showcasing your skills, projects, experience, and contact information in a clean and interactive manner.
 
-**Live Demo:** [Click here to view the portfolio](https://arnob-mahmud.vercel.app/)
+**Live Demo:** https://arnob-mahmud.vercel.app/
 
 ---
 
