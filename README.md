@@ -1,4 +1,4 @@
-# MyPortfolio--NextJS
+# My Personal Portfolio - NextJS
 
 ![Screenshot 2024-09-06 at 17 32 06](https://github.com/user-attachments/assets/dbdc686f-af2b-41c5-b479-351a64e7ec62) ![Screenshot 2024-09-06 at 17 33 17](https://github.com/user-attachments/assets/05db7d82-ae54-4bcc-b78f-d39da414fdde) ![Screenshot 2024-09-06 at 17 35 03](https://github.com/user-attachments/assets/3badf931-d321-41c4-9f34-1343006ebc35) ![Screenshot 2024-09-06 at 17 35 20](https://github.com/user-attachments/assets/38c0216d-e666-479b-b59f-0dff35ab1b21) ![Screenshot 2024-09-06 at 17 35 47](https://github.com/user-attachments/assets/b75d7e28-c937-433b-b1f4-8c4143f32a69) ![Screenshot 2024-09-06 at 17 36 00](https://github.com/user-attachments/assets/9c160ac7-c523-4e07-9b69-d9e88e69f44b) ![Screenshot 2024-09-06 at 17 37 59](https://github.com/user-attachments/assets/077a8ac0-3140-480b-856a-bb49185e06b1) ![Screenshot 2024-09-06 at 17 38 40](https://github.com/user-attachments/assets/8543a5af-6cc9-4956-8750-2242cc944971)
 
