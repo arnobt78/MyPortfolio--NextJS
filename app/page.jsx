@@ -19,13 +19,18 @@ const Home = () => {
               <span className="text-accent">Arnob Mahmud</span>
             </h1>
             <span className="text-xl text-justify">
-              Web/Mobile App Developer, UI/UX Designer, Tester (QA)
+              Full-Stack Developer (Web & Mobile) | Automation & Digital
+              Solutions Engineer
             </span>
             <p className="max-w-[600px] mt-2 mb-9 text-white/80 text-justify">
-              4+ years of combined professional experience in Mobile App
-              Development, UI/UX Design, Web Development, and Test Automation, I
-              excel at crafting elegant digital experiences and I am proficient
-              in multiple programming languages and technological tools.
+              I’m a passionate Full-Stack Developer and Automation Engineer
+              based in Frankfurt, Germany, with 4+ years building
+              high-performance web & mobile apps, sleek UI/UX, and robust cloud
+              solutions. From React, Next.js, and Angular to Node.js, Python,
+              and PostgreSQL, I turn ideas into scalable digital products.
+              Skilled in test automation, SEO, and Google Ads, I help brands
+              grow with data-driven, modern tech. Let’s create something
+              extraordinary together! 🚀
             </p>
 
             {/* button and socials */}
