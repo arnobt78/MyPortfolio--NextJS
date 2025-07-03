@@ -61,7 +61,7 @@ This project is built with **Next.js v14** (React), leverages the App Router, se
 
 The project follows a modular, scalable structure for ease of development and maintainability.
 
-```
+```bash
 MyPortfolio--NextJS/
 ├── app/
 │   ├── api/           # API routes (e.g., contact form endpoint)
@@ -122,8 +122,9 @@ MyPortfolio--NextJS/
 
 - `components/PageTransition.jsx` and `components/StairTransition.jsx` use Framer Motion for smooth route transitions and section reveals.
 - Example animation code:
+
   ```jsx
-  import { motion } from 'framer-motion';
+  import { motion } from "framer-motion";
 
   export default function PageTransition({ children }) {
     return (
@@ -219,7 +220,7 @@ Visit [http://localhost:3000](http://localhost:3000) to see your site in action.
 
 ```javascript
 // app/api/contact/route.js
-import nodemailer from 'nodemailer';
+import nodemailer from "nodemailer";
 
 export async function POST(req) {
   try {
@@ -248,11 +249,16 @@ export async function POST(req) {
 
     await transporter.sendMail(mailOptions);
 
-    return new Response(JSON.stringify({ message: 'Email sent successfully' }), { status: 200 });
-
+    return new Response(
+      JSON.stringify({ message: "Email sent successfully" }),
+      { status: 200 }
+    );
   } catch (error) {
-    console.error('Error sending email:', error);
-    return new Response(JSON.stringify({ error: 'Error sending email', details: error.message }), { status: 500 });
+    console.error("Error sending email:", error);
+    return new Response(
+      JSON.stringify({ error: "Error sending email", details: error.message }),
+      { status: 500 }
+    );
   }
 }
 ```

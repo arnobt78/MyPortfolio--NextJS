@@ -43,7 +43,13 @@ const MobileNav = () => {
         <CiMenuFries className="text-32[px] text-accent" />
       </SheetTrigger>
       <SheetContent className="flex flex-col">
-
+        {/* accessibility: dialog title and description */}
+        <span className="sr-only" id="mobile-nav-title">
+          Mobile Navigation
+        </span>
+        <span className="sr-only" id="mobile-nav-desc">
+          Main navigation menu for mobile devices
+        </span>
         {/* logo */}
         <div className="mt-16 mb-24 text-center text-2xl">
           <Link href="/">
@@ -66,7 +72,7 @@ const MobileNav = () => {
                       "text-accent border-b-2 border-accent"
                     }
                   text-xl capitalize hover:text-accent transition-all`}
-                  onClick={handleLinkClick}
+                    onClick={handleLinkClick}
                   >
                     {link.name}
                   </Link>

@@ -11,7 +11,7 @@ import {
   TooltipTrigger,
 } from "../../components/ui/tooltip";
 import Link from "next/link";
-import Image from "next/image";
+
 import WorkSliderBtns from "../../components/WorkSliderBtns";
 
 const projects = [
@@ -656,11 +656,18 @@ const Work = () => {
                       ></div>
                       {/* image */}
                       <div className="relative w-full h-full">
-                        <Image
+                        <img
                           src={project.image}
-                          fill
-                          className="object-cover"
+                          className="object-cover w-full h-full absolute inset-0"
                           alt={project.title}
+                          style={{
+                            objectFit: "cover",
+                            width: "100%",
+                            height: "100%",
+                            position: "absolute",
+                            inset: 0,
+                          }}
+                          loading="lazy"
                         />
                       </div>
                     </div>

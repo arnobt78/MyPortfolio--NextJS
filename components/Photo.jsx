@@ -1,9 +1,7 @@
 "use client";
 
-
-
 import { motion } from "framer-motion";
-import Image from "next/image";
+// import Image from "next/image";
 
 // import image from "/assets/photo.png";
 
@@ -26,13 +24,18 @@ const Photo = () => {
           }}
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
-          <Image
+          <img
             src="/photo.png"
-            priority
-            quality={100}
-            fill
             alt="photo"
-            className="object-contain"
+            className="object-contain w-full h-full"
+            style={{
+              objectFit: "contain",
+              width: "100%",
+              height: "100%",
+              position: "absolute",
+              inset: 0,
+            }}
+            loading="eager"
           />
         </motion.div>
 

@@ -36,8 +36,8 @@ import { motion } from "framer-motion";
 const about = {
   title: "About me",
   description:
-    "4+ years of combined professional experience in Mobile App Development, UI/UX Design, Web Development, and Test Automation. Experience using Java, Angular, JavaScript, HTML, CSS, TypeScript, React, Vue, NodeJS, NextJS, PHP, TailwindCSS, Python, Rest API, Selenium, and MySQL in a work environment. I am open to working as a Frontend Developer/ UI/UX Designer/ Web Developer/ Mobile App Developer/ Software Test Engineer/ Quality Assurance Engineer/ IT Cyber Security.", 
-info: [
+    "Dedicated and trustworthy Full-Stack Developer with 4+ years of experience delivering robust, end-to-end digital solutions — from concept through to production. I excel at quickly grasping client needs and transforming them into impactful, user-centered applications. As a strong team player with excellent communication, analytical thinking, and a calm, focused approach under pressure, I thrive in fast-paced environments where quality and timely delivery matter most. I specialize in building fast, responsive web and mobile applications with seamless user experiences. My expertise spans modern frontend and backend technologies, complemented by a passion for clean, maintainable code and comprehensive test coverage. Skilled in UI/UX design using Figma, I ensure solutions are both visually engaging and highly functional. With deep experience in working across modern databases and security-focused automation, I’ve developed scalable apps using cloud and containerization platforms like Docker, Kubernetes, AWS, and more. I also bring hands-on experience integrating and customizing enterprise workflows using Odoo ERP. Whether building interactive interfaces, securing backend systems, automating tests, or deploying full-stack applications in the cloud, I’m driven by solving complex challenges and delivering production-ready results that exceed expectations.",
+  info: [
     {
       fieldName: "Name",
       fieldValue: "Arnob Mahmud",
@@ -81,14 +81,20 @@ const experience = {
     "With extensive experience as both a software and mobile app developer and a software tester, I excel in creating high-quality, user-friendly applications and ensuring they perform flawlessly. I develop intuitive and robust apps for various platforms, focusing on clean code and seamless user experiences. Simultaneously, I conduct thorough testing to identify and resolve issues, optimizing performance and ensuring that every application meets rigorous quality standards. This dual expertise allows me to deliver reliable, high-performance solutions that enhance user satisfaction.",
   items: [
     {
+      company: "Sernitas GmbH, Bochum, Germany",
+      // location: "Bochum, Germany",
+      position: "Full-Stack Developer",
+      duration: "March 2025 - July 2025",
+    },
+    {
       company: "Frankfurt University of Applied Sciences, Frankfurt, Germany",
       // location: "Frankfurt, Germany",
       position: "Student Research Assistant",
       duration: "2017 - 2023",
     },
     {
-      company: "get it live GmbH, Nedderau, Germany",
-      // location: "Nedderau, Germany",
+      company: "get it live GmbH, Nidderau, Germany",
+      // location: "Nidderau, Germany",
       position: "Mobile Application Developer",
       duration: "November 2015 - June 2016",
     },
@@ -113,7 +119,7 @@ const education = {
   title: "My Courses",
   description:
     "I’ve refined my skills in web development through a blend of formal education and practical experience. My journey has centered on mastering both front-end and back-end technologies to create well-rounded digital solutions. I hold a Bachelor's Degree in Computer Science & Engineering from Bangladesh University of Professionals and a Master’s Degree in High Integrity Systems (Informatik) from Frankfurt University of Applied Sciences in Germany.",
-    items: [
+  items: [
     {
       institution: "Udemy Online Courses",
       degree: "Advanced NextJS/Framer-Motion Web Development Bootcamp",
@@ -125,12 +131,14 @@ const education = {
       duration: "2023 - 2024",
     },
     {
-      institution: "Frankfurt University of Applied Sciences, Frankfurt, Germany",
+      institution:
+        "Frankfurt University of Applied Sciences, Frankfurt, Germany",
       degree: "High Integrity Systems (M.Sc.)",
       duration: "2014 - 2024",
     },
     {
-      institution: "Military Institute of Science & Technology, Dhaka, Bangladesh",
+      institution:
+        "Military Institute of Science & Technology, Dhaka, Bangladesh",
       degree: "Computer Science & Engineering (B.Sc.)",
       duration: "2008 - 2012",
     },
@@ -141,7 +149,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "My experience spans a wide range of technologies, including React (Vite), NextJS (Shadcn UI, Framer-Motion, Next-Auth), Vue, Java (Spring), Angular, JavaScript, TypeScript, and NodeJS (Express, NestJS). I have worked with Stripe, HTML, CSS, TailwindCSS, PHP (Symfony, Laravel), and Python (Flask, Django). I’m also skilled in REST API development, SQL (Firebase, Postgres, MongoDB, Prisma, Mongoose), R, AI Copilot, and various testing frameworks like Playwright, WebdriverIO, Selenium, TestNG, and Cypress. Additionally, I am familiar with deployment platforms such as Netlify, Vercel, and Render. Currently, I am further enhancing my skills through online training.",
+    "My experience spans a wide range of technologies, including React, NextJ.js, Shadcn UI, Framer-Motion, Java (Spring), Angular, JavaScript, TypeScript, and NodeJS (Express, Nest.js). I have worked with Stripe, TailwindCSS, PHP (Symfony, Laravel), and Python (Flask, Django). I’m also skilled in REST API development, Database (Firebase, PostgreSQL, Supabase, NoSQL, MongoDB, Prisma, Mongoose, Raw SQL), R, AI Copilot, and various testing frameworks like Jest, Selenium, and Cypress. Additionally, I am familiar with deployment platforms such as Netlify, Vercel, Render, cPanel, Docker, Kubernetes, AWS (EC2, S3). Currently, I am further enhancing my skills through online training.",
   skillList: [
     {
       icon: <FaJs />,
@@ -222,7 +230,6 @@ const Resume = () => {
 
           {/* content */}
           <div className="min-h-[70vh] w-full">
-
             {/* experience */}
             <TabsContent
               value="experience"
@@ -249,7 +256,7 @@ const Resume = () => {
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                             <p className="text-white/60 ">{item.company}</p>
                           </div>
-                         {/* <span className=" text-white/60 lg:items-start lg:items-left">{item.location}</span> */}                        
+                          {/* <span className=" text-white/60 lg:items-start lg:items-left">{item.location}</span> */}
                         </li>
                       );
                     })}
