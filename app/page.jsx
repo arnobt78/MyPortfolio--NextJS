@@ -18,19 +18,19 @@ const Home = () => {
               Hello! I&apos;m <br />{" "}
               <span className="text-accent">Arnob Mahmud</span>
             </h1>
-            <span className="text-xl text-justify">
-              Full-Stack Developer (Web & Mobile) | Automation & Digital
-              Solutions Engineer
+            <span className="max-w-[600px] text-xl text-justify">
+              Full-Stack Developer | Automation & Digital Solutions Engineer
             </span>
             <p className="max-w-[600px] mt-2 mb-9 text-white/80 text-justify">
-              I’m a passionate Full-Stack Developer and Automation Engineer
-              based in Frankfurt, Germany, with 4+ years building
-              high-performance web & mobile apps, sleek UI/UX, and robust cloud
-              solutions. From React, Next.js, and Angular to Node.js, Python,
-              and PostgreSQL, I turn ideas into scalable digital products.
-              Skilled in test automation, SEO, and Google Ads, I help brands
-              grow with data-driven, modern tech. Let’s create something
-              extraordinary together! 🚀
+              Dedicated and trustworthy full-stack developer with over four
+              years of experience delivering robust, end-to-end digital
+              solutions from concept to production. Known for quickly
+              understanding client needs and turning them into impactful,
+              user-centered applications. A strong team player with excellent
+              communication skills, analytical thinking, and a calm, focused
+              mindset under pressure. Passionate about continuous learning,
+              solving complex challenges, and delivering high-quality results on
+              time in fast-paced environments. 🚀
             </p>
 
             {/* button and socials */}
